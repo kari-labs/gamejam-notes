@@ -1,0 +1,30 @@
+createdAt: "2019-08-16T20:06:37.716Z"
+updatedAt: "2019-08-16T20:15:45.962Z"
+type: "MARKDOWN_NOTE"
+folder: "3bbe26342a5f1211ead0"
+title: "Mongo Schemas"
+tags: []
+content: '''
+  # Mongo Schemas
+  
+  ## User
+  - name:
+    - first: String
+    - last: String
+  - username: String
+  - password: String(hashed)
+  - coins: Int
+  - base: ObjectId(base)
+  - level: Int
+  - xp: Double
+  - created: String
+  - email: String
+  
+  ## Base
+  - data: String
+  - owner: ObjectId(user)
+  - created: String
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

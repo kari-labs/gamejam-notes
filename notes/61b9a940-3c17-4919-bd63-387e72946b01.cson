@@ -1,0 +1,33 @@
+createdAt: "2019-08-16T20:03:11.261Z"
+updatedAt: "2019-08-16T20:14:54.609Z"
+type: "MARKDOWN_NOTE"
+folder: "3bbe26342a5f1211ead0"
+title: "GraphQL server"
+tags: []
+content: '''
+  # GraphQL server
+  
+  ## Query
+  
+  ## Mutations
+  
+  ### login
+  
+  #### Params:
+  - username: String
+  - password: String
+  
+  ### register:
+  #### Params:
+  - username: String
+  - password: String
+  
+  
+  ### deleteUser
+  #### Params:
+  - username: String
+  - password: String
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
